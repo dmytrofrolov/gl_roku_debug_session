@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="GridScreen" extends="BaseScreen">
+    <interface>
+        <!-- <field id="itemSelected" type="int" alwaysNotify="true" value="-1" /> -->
+        <field id="itemSelected" type="int" alias="grid.itemSelected" alwaysNotify="true" value="-1" />
+
+        <!-- <function name="nameOfFUnction" /> -->
+    </interface>
+
+    <script type="text/brightscript"  uri="GridScreen.brs"/>
+
+    <children>
+        <PosterGrid
+            id="grid"
+            translation="[100,100]"
+            itemSize="[320,240]"
+            numColumns="3"
+            />
+    </children>
+</component>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="BaseScreen" extends="Group">
+    <interface>
+        <field id="wasShown" type="bool" alwaysNotify="true" />
+        <field id="wasClosed" type="bool" alwaysNotify="true" />
+        <field id="close" type="bool" alwaysNotify="true" />
+        <field id="content" type="node" alwaysNotify="true" />
+    </interface>
+</component>

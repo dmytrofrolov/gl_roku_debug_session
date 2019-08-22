@@ -1,0 +1,6 @@
+title=Debug_session
+major_version=1
+minor_version=0
+build_version=1
+
+bs_libs_required=roku_ads_lib

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="DetailsScreen" extends="BaseScreen">
+    <interface>
+        <field id="buttonSelected" type="node" alias="button.buttonSelected" />
+        <!-- <function name="nameOfFUnction" /> -->
+    </interface>
+
+    <script type="text/brightscript"  uri="DetailsScreen.brs"/>
+
+    <children>
+        <Poster
+            id="poster"
+            translation="[100, 300]"
+            />
+        <Label
+            id="title"
+            translation="[100, 100]"
+            />
+        <Button
+            id="button"
+            text="Play video"
+            translation="[300, 100]"
+            />
+    </children>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="MainScene" extends="Scene">
+    <interface>
+        <field id="args" type="assocarray" />
+    </interface>
+
+    <script type="text/brightscript"  uri="MainScene.brs"/>
+
+    <children>
+        <Group
+            id="screenStackUI"
+            />
+    </children>
+</component>
